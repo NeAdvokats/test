@@ -1,0 +1,100 @@
+* { box-sizing: border-box; }
+
+body {
+    display: flex;
+    font-family: "JetBrains Mono", monospace, arial;
+    background-color: #24273a;
+    color: #cad3f5;
+    margin: 0px;
+    padding: 0px;
+}
+
+hr {
+    width: 60%;
+    height: 3px;
+    border: 0;
+    background-color: #3d415f;
+    border-radius: 1rem;
+    max-width: 120px;
+}
+
+.aside-progress {
+    position: fixed;
+    left: 0;
+    margin: 1rem;
+    margin-right: 0px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 1rem;
+    background-color: #1e2030;
+    height: 95%;
+    width: 20%;
+}  
+
+.nav-links {
+    padding-left: 0; 
+    text-align: center;
+    list-style: none;
+}
+
+.nav-main {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.nav-link {
+    padding: 0.4rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+.nav-links li {
+    margin: 0.8rem;
+}
+
+.nav-link:hover{
+    border-radius: 0.9rem;
+    background-color: #3d415f;
+}
+
+.main-content {
+    margin-left: calc(20% + 2rem); /* Ширина aside + отступы */
+    width: 80%;
+}
+
+.main-group {
+    height: 100%;   
+    width: 95%;
+    border-radius: 1rem;
+    background-color: #1e2030;
+    margin: 1rem;
+}
+
+.main-group img, p {
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px
+}
+
+.main-group h1 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-left: 10px;     
+    padding-top: 10px;
+}
+
+.maincontent-img {
+    border-radius: 1rem;
+    width: 100%;
+
+}
+
+.main-group a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #808dff;
+}
